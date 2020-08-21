@@ -3,6 +3,9 @@ import "./style.css";
 
 // Using the datalist element we can create autofill suggestions based on the props.breeds array
 
+// const breeds = ["a", "b", "c"];
+// const options = breeds.map((breed) => <option value={breed} key={breed} />);
+
 function SearchForm(props) {
   return (
     <form className="search">
@@ -18,7 +21,11 @@ function SearchForm(props) {
           placeholder="Type in a dog breed to begin"
           id="breed"
         />
-        <datalist id="breeds"></datalist>
+        <datalist id="breeds">
+          {props.breeds.map((breed) => (
+            <option value={breed} key={breed} />
+          ))}
+        </datalist>
         <button
           type="submit"
           onClick={props.handleFormSubmit}
