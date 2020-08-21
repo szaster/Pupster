@@ -1,11 +1,18 @@
 import axios from "axios";
 
-const BASEURL = "https://dog.ceo/dog-api/";
-const APIKEY = "&api_key=dc6zaTOxFJmzC&limit=20";
+// Export an object containing methods we will use for accessing the Dog.Ceo API
 
-// Export an object with a "search" method that searches the Giphy API for the passed query
-export default {
-  search: function (query) {
-    return axios.get(BASEURL + query + APIKEY);
-  },
-};
+//dog.ceo/api/breeds/image/random"
+
+export class DogApi {
+  static getRandomDog() {
+    return axios.get("https://dog.ceo/api/breeds/image/random");
+  }
+  static getDogsOfBreed(breed) {
+    return axios.get("https://dog.ceo/api/breed/" + breed + "/images");
+  }
+
+  static getBaseBreedsList() {
+    return axios.get("https://dog.ceo/api/breeds/list");
+  }
+}
