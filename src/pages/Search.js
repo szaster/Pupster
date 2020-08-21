@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { DogApi } from "../utils/API";
 import Container from "../components/Container";
 import SearchForm from "../components/SearchForm";
+import SearchResults from "../components/SearchResults";
 
 class Search extends Component {
   state = {
@@ -38,12 +39,14 @@ class Search extends Component {
       <div>
         <Container style={{ minHeight: "80%" }}>
           <h1 className="text-center">Search By Breed!</h1>
+
+          <SearchForm
+            handleFormSubmit={this.handleFormSubmit}
+            handleInputChange={this.handleInputChange}
+            breeds={this.state.breeds}
+          />
+          <SearchResults results={this.state.results} />
         </Container>
-        <SearchForm
-          handleFormSubmit={this.handleFormSubmit}
-          handleInputChange={this.handleInputChange}
-          breeds={this.state.breeds}
-        />
       </div>
     );
   }
