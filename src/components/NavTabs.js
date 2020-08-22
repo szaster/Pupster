@@ -19,7 +19,7 @@ function NavTabs() {
           About
         </Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link
           to="/discover"
           className={
@@ -27,8 +27,8 @@ function NavTabs() {
           }
         >
           Discover
-        </Link>
-      </li>
+        </Link> */}
+      {/* </li> */}
       <li className="nav-item">
         <Link
           to="/search"
