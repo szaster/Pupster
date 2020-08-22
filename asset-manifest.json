@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Pupster-App/static/css/main.7d516dac.chunk.css",
+    "main.js": "/Pupster-App/static/js/main.a7145e38.chunk.js",
+    "main.js.map": "/Pupster-App/static/js/main.a7145e38.chunk.js.map",
+    "runtime-main.js": "/Pupster-App/static/js/runtime-main.8642e48f.js",
+    "runtime-main.js.map": "/Pupster-App/static/js/runtime-main.8642e48f.js.map",
+    "static/css/2.11829350.chunk.css": "/Pupster-App/static/css/2.11829350.chunk.css",
+    "static/js/2.ba18e5e5.chunk.js": "/Pupster-App/static/js/2.ba18e5e5.chunk.js",
+    "static/js/2.ba18e5e5.chunk.js.map": "/Pupster-App/static/js/2.ba18e5e5.chunk.js.map",
+    "index.html": "/Pupster-App/index.html",
+    "precache-manifest.aba16505b748e8e598a249f0c470cdd7.js": "/Pupster-App/precache-manifest.aba16505b748e8e598a249f0c470cdd7.js",
+    "service-worker.js": "/Pupster-App/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/Pupster-App/static/css/2.11829350.chunk.css.map",
+    "static/css/main.7d516dac.chunk.css.map": "/Pupster-App/static/css/main.7d516dac.chunk.css.map",
+    "static/js/2.ba18e5e5.chunk.js.LICENSE.txt": "/Pupster-App/static/js/2.ba18e5e5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8642e48f.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.ba18e5e5.chunk.js",
+    "static/css/main.7d516dac.chunk.css",
+    "static/js/main.a7145e38.chunk.js"
+  ]
+}
